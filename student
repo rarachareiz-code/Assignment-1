@@ -1,0 +1,22 @@
+using System;
+
+class Student
+{
+    public string studentId;
+    public string name;
+    public string course;
+
+    public Student(string studentId, string name, string course)
+    {
+        this.studentId = studentId;
+        this.name = name;
+        this.course = course;
+    }
+    public void displayInfo()
+    {
+        Console.WriteLine("Student Id: " + studentId);
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Course: " + course);
+        Console.WriteLine();
+    }
+}
